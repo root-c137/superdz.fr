@@ -1,0 +1,32 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello MainController!{% endblock %}
+{% block stylesheets %}
+    <link rel="stylesheet" href="{{ asset("CSS/home.css") }}"/>
+{% endblock %}
+
+{% block body %}
+
+<div class="Container">
+    <h1 class="Title">superdz</h1>
+    <img src="{{asset('images/superdz_heros.png') }}" alt="superdz character..."/>
+
+    <div class="Presentation">
+        <h2 class="Presentation_Txt">
+                SuperDZ est un petit jeu sympa 
+                dont le but est de voler le plus longtemps possible 
+                en évitant les obstacles à la manière de Flappy Bird.
+        </h2>
+        <p>Téléchargez-le gratuitement sur google play : </p>
+        <a href="https://play.google.com/store/apps/dev?id=7303751158507609486" target="_blank">
+             <img src="{{asset('images/googleplay.svg.png')}}" alt="get in on Google Play"/>
+        </a>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Mfy-ZAjURp4?si=IkmkT4Y0RpNsHcfx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+
+
+
+</div>
+{% endblock %}

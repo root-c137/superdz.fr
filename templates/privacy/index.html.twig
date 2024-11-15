@@ -1,0 +1,50 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello PrivacyController!{% endblock %}
+
+{% block body %}
+{% block stylesheets %}
+    <link rel="stylesheet" href="{{ asset("CSS/privacy.css") }}"/>
+{% endblock %}
+
+
+<div class="Container">
+
+    <div class="SectionFR">
+    <h1>Politique de confidentialité</h1>
+
+        <p>
+        Définition de la Politique de Confidentialité de l'Application « SuperDZ ».
+        </p>
+        <ul>
+            <li><p>L'application stocke uniquement le meilleur score que l'utilisateur a obtenu en jouant, sur son appareil afin de pouvoir l'afficher
+            sur l'écran d'accueil ainsi que sur l'écran du "game over" qui s'affiche après avoir perdu une partie.</p></li>
+            <li><p>L'application ne récolte aucune donnée personnelle.</p></li>
+            <li><p>L'application ne nécessite aucun accès aux informations de l'utilisateur tels que les 
+        contacts, le numéro de téléphone ou des informations similaires.</p></li>
+            <li>Pour toute question, vous pouvez contacter le développeur "rootc137" à l'adresse email suivante : <strong>hello@rootc137.com</strong>.</li>
+        </ul>
+
+        <p>Saint-Etienne (France), 15/11/2024.</p>
+    </div>
+    <div class="SectionEN">
+    <h1>Privacy policy</h1>
+    <p>
+        Definition of the Privacy Policy of the “SuperDZ” Application.
+    </p>
+        <ul>
+            <li><p>The application only stores the best score that the user obtained while playing, on their device so that it can be displayed 
+            on the home screen as well as on the "game over" screen which appears after losing a game.</p></li>
+            <li><p>The application does not collect any personal data.</p></li>
+            <li><p>The application does not require any access to user information such as 
+        contacts, telephone number or similar information.</p></li>
+            <li>For any questions, you can contact the developer "rootc137" at the following email address: <strong>hello@rootc137.com</strong>.</li>
+        </ul>
+
+    <p>Saint-Etienne (France), 15/11/2024.</p>
+    </div>
+
+    <a href="https://superdz.fr">retourner à la page d'accueil</a>
+
+</div>
+{% endblock %}
